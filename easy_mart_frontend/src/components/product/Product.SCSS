@@ -1,0 +1,85 @@
+.main_contaent{
+    // @extend .dFlex;
+    position: relative;
+    width: 70%;
+    height: 100%;
+    margin: 50px auto;
+    padding: 50px 0 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    h3{     
+        position: absolute;
+        left: 0;
+        top:0;
+        color: red text;
+        font-size:10.5vw;
+    }
+    .card{
+        width:30%;
+        border-radius: 15px;
+        // @extend .dFlex;
+        flex-direction: column;
+        position: relative;
+        transform: scale(.8);
+        transition: all .3s ease-in-out;
+        margin-bottom: 50px;
+        .card_img{
+         margin-top:-5vw;
+         img{
+             width:20px;
+             height: 02px;
+
+         }
+        }
+        .card_header{
+            flex-direction: column;
+            color: white;
+            margin: 25px 0;
+            h2{
+                font-size: 18px;
+            }
+            p{
+                font-size: 14px;
+                text-align: center;
+                color: white;
+                margin: 8px 0;
+            }
+            .price{
+                font-size: 25px;
+                color: rgba(255, 217, 0, 0.76);
+                span{
+                    font-size: 15px;
+                    display: inline-block;
+                    vertical-align: top;
+                }
+
+            }
+
+        }
+
+    }
+    .card:hover{
+        background-color: rgba(128, 128, 128, 0.425);
+        transform:scale(1,1);
+        cursor: pointer;
+    }
+    .card:hover{
+        .btn{
+        background-color:pink ;
+        color:white;}
+
+    }
+    .btn{
+        width: 130px;
+        height: 35px;
+        font-size: 14px;
+        border-radius: 35px;
+        background-color: rgba(128, 128, 128, 0.425);
+        color: green;
+    }
+
+}
+
+
