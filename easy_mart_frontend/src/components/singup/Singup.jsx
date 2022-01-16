@@ -9,6 +9,8 @@ import RadioGroup from '@mui/material/RadioGroup';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
 import validator from 'validator'
+import { useHistory } from 'react-router';
+
 
 
 
@@ -21,6 +23,7 @@ function Singup() {
         name:"",email:"",phone:"",password:"" , cpassword:""
     });
     let name,value;
+    const history = useHistory();
 
     const handleInputs = (e) =>{
         console.log(e)
@@ -65,6 +68,8 @@ function Singup() {
             
         }else{
             window.alert("sucsussful Registration")
+            // history.push("/login")
+
 
         }
     

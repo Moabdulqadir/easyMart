@@ -5,7 +5,7 @@ const product_card = [
         description: "NIKE, Inc. designs, markets and sells high quality.",
         price: 550,
         currency: "$",
-        thumb: "/images/1.png"
+        thumb: "/images/3.png"
     },
     {
         id: 2,
@@ -71,5 +71,6 @@ const product_card = [
         currency: "$",
         thumb: "/images/10.png"
     },
+  
 ]
 export default product_card;

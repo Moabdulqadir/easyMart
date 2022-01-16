@@ -236,7 +236,7 @@ export default function PrimarySearchAppBar() {
             component="div"
             sx={{ display: { xs: 'none', sm: 'block' } }}
           >
-            easy mart
+            Easy mart
           </Typography>
 
           <div>

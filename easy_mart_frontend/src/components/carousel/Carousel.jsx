@@ -5,10 +5,13 @@ import bed1 from '../../resources/images/bed1.jpg'
 import bed2 from '../../resources/images/bed2.jpg'
 import bed3 from '../../resources/images/bed3.jpg'
 import Welcome from '../welcome/Welcome';
-
+import chatIcon from "../../resources/images/chatIcon.png";
 function Carousel1() {
     return (
-        <div>
+        <div style={{position: "relative"}}>
+          <div style={{position:"fixed",bottom:20,right:20   }}>
+            <img  style={{width:60, cursor:'pointer'}} src={chatIcon}/> 
+          </div>
              <Carousel>
   <Carousel.Item interval={1000}>
     <img

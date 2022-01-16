@@ -1,6 +1,6 @@
 import React from 'react'
 import product_card from './product_data'
-import "./Product.SCSS";
+import "./Product.css";
 
 function Product() {
     console.log(product_card);

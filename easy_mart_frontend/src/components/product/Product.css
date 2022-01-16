@@ -1,0 +1,83 @@
+.main_contaent {
+    position: relative;
+    width: 70%;
+    height: 100%;
+    margin: 50px auto;
+    padding: 50px 0 0;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+.main_contaent h3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: black;
+    font-size: 35px;
+}
+.main_contaent .card {
+    width: 30%;
+    border-radius: 15px;
+    flex-direction: column;
+    position: relative;
+    transform: scale(0.8);
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 50px;
+}
+.main_contaent .card .card_img {
+    margin-top: -5vw;
+}
+.main_contaent .card .card_img img {
+    width: 200px;
+    height: 185px;
+    margin: 35px;
+}
+.main_contaent .card .card_header {
+    flex-direction: column;
+    color: black;
+    margin: 25px 0;
+}
+.main_contaent .card .card_header h2 {
+    font-size: 25px;
+    margin-left: 75px;
+}
+.main_contaent .card .card_header p {
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    margin: 8px 0;
+}
+.main_contaent .card .card_header .price {
+    font-size: 25px;
+    color: green;
+}
+.main_contaent .card .card_header .price span {
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+.main_contaent .card:hover {
+    background-color: rgba(128, 128, 128, 0.425);
+    transform: scale(1, 1);
+    cursor: pointer;
+}
+.main_contaent .card:hover .btn {
+    background-color: orange;
+    color: white;
+}
+
+.main_contaent .btn {
+    width: 130px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 35px;
+    background-color: rgb(128, 128, 128);
+    color: white;
+    position: relative;
+    cursor: pointer;
+    transition: backgroun-color 0.3s ease;
+    overflow: hidden;
+    margin-left: 90px;
+    
+}

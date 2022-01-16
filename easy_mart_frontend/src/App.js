@@ -23,7 +23,7 @@ function App() {
             <Carousel />
             {/* <Carosel1/> */}
             <Product/>
-            <HomeProducts />
+            {/* <HomeProducts /> */}
             <Footer />
           </Route>
 
